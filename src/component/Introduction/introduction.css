@@ -1,0 +1,63 @@
+*{
+    font-family: 'Hanalei Fill';
+}
+
+.intro{
+   display: flex; 
+}
+
+.intro-l{
+    flex:1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.intro-l-wrapper{
+   
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.intro-title{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+
+.name{
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.subject-wrapper{
+
+}
+
+.subject{
+    flex: 1;
+    font-family: 'Poppins';
+}
+
+
+.intro-r{
+    flex: 1;
+    display: flex;
+    background-color: rgb(182, 179, 179);
+    height: 100vh;
+    align-items: flex-end;
+}
+
+.intro-r-img{
+width: 85%;
+height: 60%;
+}
+
+.break{
+    display: inline;
+    font-size: 40px;
+    font-family: 'Poppins';
+}
